@@ -90,7 +90,7 @@ export default function Home() {
 
       <div className="bg-greyAccent p-10">
 
-        // using a turnary to show or hide no orders retrieved or the orders.
+        {/* using a turnary to show or hide no orders retrieved or the orders. */}
         <div id="output" className="divide-dashed divide-y-2 divide-accent">
           {
             // the conditon checking if the array is empty.
