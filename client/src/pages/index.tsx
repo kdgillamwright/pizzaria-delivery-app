@@ -44,7 +44,7 @@ export default function Home() {
   return (
     <main className="grid grid-rows-1 grid-cols-1 gap-0 text-content">
 
-      //added my loading overlay component and set the property values.
+      {/* added my loading overlay component and set the property values. */}
       <LoadingOverlay
         enabled={showOverlay}
         bgColor={"#FF0000"}
